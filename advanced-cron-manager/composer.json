@@ -1,0 +1,36 @@
+{
+    "name": "bracketspace/advanced-cron-manager",
+    "description": "Advanced Cron Manager WordPress plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Kuba Mikita",
+            "email": "jakub@bracketspace.com"
+        }
+    ],
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
+    },
+    "require": {
+        "underdev/utils": "*",
+        "underdev/requirements": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "underDEV\\AdvancedCronManager\\" : "inc"
+        }
+    },
+    "require-dev": {
+        "10up/wp_mock": "dev-trunk",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+        "phpcompatibility/php-compatibility": "^9.1",
+        "wp-coding-standards/wpcs": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
