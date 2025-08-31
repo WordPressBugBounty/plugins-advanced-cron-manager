@@ -4,7 +4,7 @@ Tags: cron, wpcron, tool, manager, crontrol
 Requires at least: 3.6
 Requires PHP: 5.3
 Tested up to: 6.8
-Stable tag: 2.6.0
+Stable tag: 2.6.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,6 +100,13 @@ Yes! We're offering a [custom plugin development](https://bracketspace.com/custo
 6. Server Scheduler section
 
 == Changelog ==
+
+= 2.6.2 =
+* [Fixed] Fixed stable package creation issues - moved package exclusions to .distignore and ensured vendor and assets directories are included.
+
+= 2.6.1 =
+* [Changed] Exclude Claude configuration files from plugin distribution exports.
+* [Changed] Add composer and yarn build steps to stable release workflow.
 
 = 2.6.0 =
 * [Changed] Removed textdomain loading to fix WordPress 6.7+ localization warnings - translations now load automatically from GlotPress.
