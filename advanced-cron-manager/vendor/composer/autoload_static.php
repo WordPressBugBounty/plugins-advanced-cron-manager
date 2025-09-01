@@ -39,7 +39,6 @@ class ComposerStaticInit8163cfec9d18b389656cb27b7a241f24
         'underDEV\\AdvancedCronManager\\Cron\\SchedulesLibrary' => __DIR__ . '/../..' . '/inc/Cron/SchedulesLibrary.php',
         'underDEV\\AdvancedCronManager\\FormProvider' => __DIR__ . '/../..' . '/inc/FormProvider.php',
         'underDEV\\AdvancedCronManager\\Misc' => __DIR__ . '/../..' . '/inc/Misc.php',
-        'underDEV\\AdvancedCronManager\\ScreenRegisterer' => __DIR__ . '/../..' . '/inc/ScreenRegisterer.php',
         'underDEV\\AdvancedCronManager\\Server\\Processor' => __DIR__ . '/../..' . '/inc/Server/Processor.php',
         'underDEV\\AdvancedCronManager\\Server\\Settings' => __DIR__ . '/../..' . '/inc/Server/Settings.php',
         'underDEV\\Utils\\Ajax' => __DIR__ . '/..' . '/underdev/utils/src/Ajax.php',

@@ -19,7 +19,6 @@ return array(
     'underDEV\\AdvancedCronManager\\Cron\\SchedulesLibrary' => $baseDir . '/inc/Cron/SchedulesLibrary.php',
     'underDEV\\AdvancedCronManager\\FormProvider' => $baseDir . '/inc/FormProvider.php',
     'underDEV\\AdvancedCronManager\\Misc' => $baseDir . '/inc/Misc.php',
-    'underDEV\\AdvancedCronManager\\ScreenRegisterer' => $baseDir . '/inc/ScreenRegisterer.php',
     'underDEV\\AdvancedCronManager\\Server\\Processor' => $baseDir . '/inc/Server/Processor.php',
     'underDEV\\AdvancedCronManager\\Server\\Settings' => $baseDir . '/inc/Server/Settings.php',
     'underDEV\\Utils\\Ajax' => $vendorDir . '/underdev/utils/src/Ajax.php',
