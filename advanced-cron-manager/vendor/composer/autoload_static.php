@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit7dbce783dc983385ac7421112661002f
 {
     public static $prefixLengthsPsr4 = array (
-        'u' => 
+        'u' =>
         array (
             'underDEV\\Utils\\' => 15,
             'underDEV\\AdvancedCronManager\\' => 29,
@@ -15,11 +15,11 @@ class ComposerStaticInit7dbce783dc983385ac7421112661002f
     );
 
     public static $prefixDirsPsr4 = array (
-        'underDEV\\Utils\\' => 
+        'underDEV\\Utils\\' =>
         array (
             0 => __DIR__ . '/..' . '/underdev/utils/src',
         ),
-        'underDEV\\AdvancedCronManager\\' => 
+        'underDEV\\AdvancedCronManager\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc',
         ),
